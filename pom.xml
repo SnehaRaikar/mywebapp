@@ -42,7 +42,9 @@
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <stopKey>STOP</stopKey>
                     <stopPort>8005</stopPort>
-            </configuration>
+			    <systemProperties>                     						<systemProperty>      
+					<name>jetty.port</name>                     					<value>8090</value>                     				</systemProperty>                     					    </systemProperties>                
+            	</configuration>
             <executions>
                 <execution>
                     <id>start-jetty</id>
