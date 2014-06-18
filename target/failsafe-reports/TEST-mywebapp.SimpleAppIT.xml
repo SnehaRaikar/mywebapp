@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="10.709" errors="0" skipped="0" tests="1" name="mywebapp.SimpleAppIT">
+<testsuite failures="0" time="16.058" errors="0" skipped="0" tests="1" name="mywebapp.SimpleAppIT">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\Varun\Documents\My Docs\jdk\jdk7\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="user.variant" value=""/>
     <property name="STOP.KEY" value="STOP"/>
     <property name="os.name" value="Windows 8"/>
-    <property name="classworlds.conf" value="C:\Users\Varun\Documents\My Docs\Development\Maven Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5094130447156642318.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Varun\Documents\My Docs\Development\Maven Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5264055707012000613.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\Varun\Documents\My Docs\jdk\jdk7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\windows\system32\gs\gs8.71\bin;C:\Users\Varun\Documents\My Docs\Development\apache-maven-3.2.1\bin;C:\Users\Varun\Documents\My Docs\jdk\jdk7\bin;C:\Program Files (x86)\Mozilla Firefox\firefox.exe;."/>
+    <property name="java.library.path" value="C:\Users\Varun\Documents\My Docs\jdk\jdk7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\windows\system32\gs\gs8.71\bin;C:\Users\Varun\Documents\My Docs\Development\apache-maven-3.2.1\bin;C:\Users\Varun\Documents\My Docs\jdk\jdk7\bin;C:\Program Files (x86)\Mozilla Firefox\firefox.exe;C:\Users\Varun\Documents\My Docs\Development\Git\cmd;C:\Users\Varun\Documents\My Docs\Development\Git\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -40,11 +40,11 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Varun"/>
-    <property name="java.class.path" value="/C:/Users/Varun/Desktop/eclipse-jee-kepler-SR2-Java8-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/536/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.class.path" value="/C:/Users/Varun/Documents/My Docs/Development/eclipse-jee-kepler-SR2-Java8-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/536/1/.cp/jars/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Users\Varun\Documents\My Docs\jdk\jdk7\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -56,12 +56,12 @@
     <property name="maven.home" value="C:\Users\Varun\Documents\My Docs\Development\Maven Workspace\mywebapp\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="maven.bootclasspath" value="/C:/Users/Varun/Desktop/eclipse-jee-kepler-SR2-Java8-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/536/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="maven.bootclasspath" value="/C:/Users/Varun/Documents/My Docs/Development/eclipse-jee-kepler-SR2-Java8-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/536/1/.cp/jars/plexus-classworlds-2.4.jar"/>
     <property name="STOP.PORT" value="8005"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="10.641" classname="mywebapp.SimpleAppIT" name="testSimpleAppIT"/>
+  <testcase time="15.98" classname="mywebapp.SimpleAppIT" name="testSimpleAppIT"/>
 </testsuite>

@@ -17,6 +17,12 @@
     </dependency>
     
     <dependency>
+	    <groupId>org.codehaus.groovy</groupId>
+	    <artifactId>groovy-all</artifactId>
+	    <version>1.6-beta-2</version>
+	</dependency>
+    
+    <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <scope>test</scope>
