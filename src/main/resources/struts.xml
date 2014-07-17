@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+ 
+    <constant name="struts.devMode" value="true" />
+ 
+    <package name="mywebapp" extends="struts-default">
+ 
+        <action name="home">
+            <result>/home.jsp</result>
+        </action>
+        
+        <action name="login" class="loginAction">
+            <result name="SUCCESS" type="chain">courseAction</result>
+	    	<result name="FAILURE">/home.jsp</result>
+	    	<result name="input">/home.jsp</result>
+        </action>
+
+	   <action name="courseAction" class="courseAction">
+            <result name="SUCCESS">/main.jsp</result>
+        </action>
+
+	  <action name="signup" class="signupAction">
+            <result name="SUCCESS">/home.jsp</result>
+             <result name="input">/signup.jsp</result>
+        </action>
+
+
+	 </package>
+ 
+</struts>

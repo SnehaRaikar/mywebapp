@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+	<bean id="loginAction" class="com.tutorial.action.LoginAction" scope="prototype">
+		<property name="userService" ref="userService" />
+	</bean>
+
+<bean id="signupAction" class="com.tutorial.action.SignupAction" scope="prototype">
+		<property name="userService" ref="userService" />
+</bean>
+
+
+<bean id="courseAction" class="com.tutorial.action.CourseAction" scope="prototype">
+		<property name="courseService" ref="courseService" />
+	</bean>
+	
+	<bean id="userService" class="com.tutorial.service.UserServiceImpl">
+		<property name="userDao" ref="userDao"/>
+	</bean>
+	
+	<bean id="courseService" class="com.tutorial.service.CourseServiceImpl">
+		<property name="courseDao" ref="courseDao"/>
+	</bean>
+	
+	<bean id="courseDao" class="com.tutorial.dao.JdbcCourseDaoImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+<bean id="userDao" class="com.tutorial.dao.JdbcUserDaoImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+ 
+ 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+ 
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306" />
+		<property name="username" value="root" />
+		<property name="password" value="Sneha$12" />
+	</bean>
+</beans>
